@@ -13,10 +13,87 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Model">
+      <UniqueIdentifier>{e091118c-dfee-4982-a5a4-b8f21d21c729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Model">
+      <UniqueIdentifier>{a7a850f4-cd12-4817-9da6-1249bcaeadc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\View">
+      <UniqueIdentifier>{365c62cd-7108-471a-8906-94a2f377af71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\View">
+      <UniqueIdentifier>{42750ad3-45ac-4b0f-b67a-ecefaed4cc33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Controller">
+      <UniqueIdentifier>{1893ed66-5f9d-4732-b857-c27bae11e5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Controller">
+      <UniqueIdentifier>{1a5ccb67-6e2a-4c16-ba51-b969b395035a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MineSweeperBot.cpp">
+    <ClCompile Include="GameSettings.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PicRecognition.cpp">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture.cpp">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Исходные файлы\View</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApp.cpp">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameSettings.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Файлы заголовков\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Файлы заголовков\View</Filter>
+    </ClInclude>
+    <ClInclude Include="WinApp.h">
+      <Filter>Файлы заголовков\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PicRecognition.h">
+      <Filter>Файлы заголовков\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture.h">
+      <Filter>Файлы заголовков\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Файлы заголовков\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Observable.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
